@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script> -->
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>JQuery Basics</h1>
+    <ul>
+      <li page="#home">Home</li>
+      <li page="#products">Products</li>
+      <li page="#cart">Shopping Cart</li>
+      <li page="#contact">Contact</li>
+      <li page="#animate">Animating</li>
+      <li page="#news">News</li>
+    </ul>
+  </header>
+
+  <main id="home">
+    <h2>Home</h2>
+    <article>
+      <h3>This is important cat stuff!</h3>
+      <p>Read about the important cat technologies coming to you in the near future!</p>
+    </article>
+    <article>
+      <h3>Dogs declare war!</h3>
+      <p>President bark has declared was on the cat Supremacy!</p>
+    </article>
+  </main>
+
+  <main id="products">
+    <h2>Products</h2>
+    <article>
+      <h3>Cat Toy</h3>
+      <p>Wonderful toy for your fuzzy pal</p>
+    </article>
+    <article>
+      <h3>Cat nip</h3>
+      <p>"Great time" -Towly</p>
+    </article>
+  </main>
+
+  
+  <main id="cart">
+    <h2>Shopping Cart</h2>
+    <article>
+      <h3>Cat Toy</h3>
+      <h4>Quantity: 2</h4>
+    </article>
+    <article>
+      <h3>Cat nip</h3>
+      <h4>Quantity: 20</h4>
+    </article>
+  </main>
+
+  <main id="contact">
+    <div>
+      <input placeholder="your name" />
+    </div>
+    <textarea cols="30" rows="10"></textarea>
+  </main>
+
+  <main id="animate">
+    <button onclick="goToSpecialPlace()">Go to the Special Place!</button>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+
+    
+    <div id="special">
+      SPECIAL Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+    <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quaerat eum quis reiciendis itaque aut ut fuga recusandae doloremque alias neque quam minima atque facere odio, minus aliquid amet incidunt!
+    </div>
+  </main>
+
+  <main id="news">
+    <div id="newsResults"></div>
+  </main>
+
+
+  <script>
+  $(document).ready(event => {
+    showPage("#home")
+
+    $('header li').click(event => {
+      var pageId = $(event.target).attr('page')
+      showPage(pageId)
+    })
+
+  })
+
+  var pageShowEvents = {
+    "#news": function() {
+      refreshNews()
+    },
+    "#products": function() {
+      alert("You are our 1,000,000th visitor!")
+    }
+  }
+
+  function showPage(id) {
+    $('main').hide()
+    $(id).fadeIn(300)
+    if(pageShowEvents[id]) {
+      pageShowEvents[id]()
+    }
+  }
+
+  function goToSpecialPlace(){
+    var animation = { 
+      scrollTop: $('#special').offset().top 
+    }
+    var scrollTime = 500 // Good for 500 pixels
+    
+    scrollTime *= animation.scrollTop / 500
+
+    console.log(animation)
+    $('html,body').animate(animation, scrollTime, "swing")
+  }
+
+  const NEWS_URL = 'https://newsapi.org/v2/top-headlines?country=ca&apiKey=8ab4d331a0784eb18325e0a4b77ba076'
+
+  function refreshNews(){
+    $.get(NEWS_URL, res => {
+      $('#newsResults').html("")
+
+      for(const a of res.articles) {
+        $('#newsResults').append(makeNewsArticle(a))
+        
+      }
+    })
+  }
+
+  function makeNewsArticle(a){
+    let aTag = $('<article>')
+    let h2Tag = $('<h2>').text(a.title)
+    let h3Tag = $('<h3>').text(a.source.name)
+    let imgTag = $('<img>').attr('src', a.urlToImage)
+    let pTag = $('<p>').text(a.description)
+
+      aTag
+      .append(h2Tag)
+      .append(h3Tag)
+      .append(imgTag)
+      .append(pTag)
+    return aTag
+  }
+
+  /* 
+    <article>
+      <h2>Article Title</h2>
+      <h3>Written by</h3>
+      <img src="news.png"> 
+      <p>words words words</p>
+    </article>
+  */
+
+  </script>
+</body>
+</html>
