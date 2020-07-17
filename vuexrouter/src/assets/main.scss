@@ -1,0 +1,16 @@
+$main-text: #eeeeee;
+
+body {
+  background-color: #333333;
+  color: $main-text;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+a {
+  color: $main-text;
+}
+main {
+  margin: 10px;
+  padding: 5px;
+  background-color: #555555;
+}
