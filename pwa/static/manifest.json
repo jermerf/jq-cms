@@ -1,0 +1,20 @@
+{
+  "name": "My awesome app",
+  "short_name": "My Appy",
+  "start_url": ".",
+  "display": "fullscreen",
+  "background_color": "#333333",
+  "description": "A super app, and it's mine!",
+  "icons": [
+    {
+      "src": "icon48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "icon144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}

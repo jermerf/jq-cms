@@ -23,6 +23,7 @@ module.exports = {
     "arrow-parens": "off",
     "max-len": "off",
     "no-plusplus": "off",
-    "eol-last": "off"
+    "eol-last": "off",
+    'no-unused-vars': 'off'
   },
 };
