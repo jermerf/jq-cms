@@ -4,7 +4,7 @@
       <Toolbar />
       <Drawer />
       <HomePost
-        v-for="(p, i) in $root.posts"
+        v-for="(p, i) in $root.contentPosts"
         :key="i"
         :post="p"
       />

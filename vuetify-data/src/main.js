@@ -19,7 +19,7 @@ window.app = new Vue({
         message: "- not set - "
       }
     },
-    posts: [
+    contentPosts: [
       { title: 'Cat', content: 'Some words', icon: 'mdi-cat' },
       { title: 'Dog', content: 'Some words', icon: 'mdi-dog' },
       { title: 'News', content: 'Some words', icon: 'mdi-newspaper' },
