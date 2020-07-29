@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .myrow{
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      width: 100%;
+    }
+    .title button,
+    .title .description,
+    .price span,
+    .quantity span,
+    .total span {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .thatDiv {
+      position: absolute;
+      top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="thatDiv">absolute</div>
+  <div class="myrow">
+    <div class="title">
+      <button>X</button>
+      <img src="192x192.png" />
+      <span class="description">Picture</span>
+    </div>
+    <div class="price"><span>$8.00</span></div>
+    <div class="quantity"><span>4</span></div>
+    <div class="total"><span>$32.00</span></div>
+  </div>
+  <div class="myrow">
+    <div class="title">
+      <button>X</button>
+      <img src="192x192.png" />
+      <span class="description">Picture</span>
+    </div>
+    <div class="price"><span>$8.00</span></div>
+    <div class="quantity"><span>4</span></div>
+    <div class="total"><span>$32.00</span></div>
+  </div>
+  <div class="myrow">
+    <div class="title">
+      <button>X</button>
+      <img src="192x192.png" />
+      <span class="description">Picture</span>
+    </div>
+    <div class="price"><span>$8.00</span></div>
+    <div class="quantity"><span>4</span></div>
+    <div class="total"><span>$32.00</span></div>
+  </div>
+</body>
+</html>

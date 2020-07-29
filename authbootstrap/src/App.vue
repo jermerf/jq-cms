@@ -4,6 +4,56 @@
       alt="Vue logo"
       src="./assets/logo.png"
     >
+    <div class="container">
+      <div class="image">
+        <img src="./assets/logo.png" />
+        <h3>Panda Plant</h3>
+        <h3>$ 8.00</h3>
+        <button class="btn btn-d">Add</button>
+      </div>
+      <div class="image">
+        <img src="./assets/logo.png" />
+        <h3>Panda Plant</h3>
+        <h3>$ 8.00</h3>
+        <button class="btn btn-d">Add</button>
+      </div>
+      <div class="image">
+        <img src="./assets/logo.png" />
+        <h3>Panda Plant</h3>
+        <h3>$ 8.00</h3>
+        <button class="btn btn-d">Add</button>
+      </div>
+      <div class="image">
+        <img src="./assets/logo.png" />
+        <h3>Panda Plant</h3>
+        <h3>$ 8.00</h3>
+        <button class="btn btn-d">Add</button>
+      </div>
+      <div class="image">
+        <img src="./assets/logo.png" />
+        <h3>Panda Plant</h3>
+        <h3>$ 8.00</h3>
+        <button class="btn btn-d">Add</button>
+      </div>
+      <div class="image">
+        <img src="./assets/logo.png" />
+        <h3>Panda Plant</h3>
+        <h3>$ 8.00</h3>
+        <button class="btn btn-d">Add</button>
+      </div>
+      <div class="image">
+        <img src="./assets/logo.png" />
+        <h3>Panda Plant</h3>
+        <h3>$ 8.00</h3>
+        <button class="btn btn-d">Add</button>
+      </div>
+      <div class="image">
+        <img src="./assets/logo.png" />
+        <h3>Panda Plant</h3>
+        <h3>$ 8.00</h3>
+        <button class="btn btn-d">Add</button>
+      </div>
+    </div>
     <b-container>
       <Auth />
     </b-container>
