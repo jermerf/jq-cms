@@ -1,0 +1,13 @@
+
+Facebook
+
+User
+  name
+  email
+  friends:[User]
+  posts:[Post]
+
+Post
+  content: Mixed string?
+  data/data_url: [videos/images]
+  
